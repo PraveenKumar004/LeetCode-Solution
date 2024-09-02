@@ -52,6 +52,9 @@ public class StringToInteger {
 
     public static void main(String[] args) {
         String i = "+-42";
+        char a ='2';
+        int d = a - '0';
+        System.out.println(d);
         System.out.println(myAtoi(i));
 
     }
